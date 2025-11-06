@@ -76,11 +76,7 @@
 }
 
 .entry-cover1 {
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
+  display: none;
 }
 
 .post-entry {
