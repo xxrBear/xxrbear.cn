@@ -154,7 +154,7 @@ body {
 .post-content pre,
 code {
   font-family: "Consolas", monospace;
-  font-size: 1.1rem;
+  /* font-size: 1.1rem; */
   line-height: 1.2;
   max-height: 40rem;
 }
