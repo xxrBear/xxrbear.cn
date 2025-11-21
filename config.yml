@@ -1,24 +1,23 @@
-baseURL: https://www.xxrbear.cn # 绑定的域名
+baseURL: https://www.xxrbear.cn
 languageCode: zh
 defaultContentLanguage: zh
 title: 熊大如如的猪窝
-theme: hugo-PaperMod # 主题名字，和themes文件夹下的一致
+theme: hugo-PaperMod
 
 enableInlineShortcodes: true
-enableEmoji: true # 允许使用 Emoji 表情，建议 true
-enableRobotsTXT: true # 允许爬虫抓取到搜索引擎，建议 true
+enableEmoji: true
+enableRobotsTXT: true
 
-hasCJKLanguage: true # 自动检测是否包含 中文日文韩文 如果文章中使用了很多中文引号的话可以开启
+hasCJKLanguage: true
 
 buildDrafts: false
 buildFuture: false
 buildExpired: false
 
-paginate: 10 # 首页每页显示的文章数
+paginate: 10 
 
 minify:
   disableXML: true
-  # minifyOutput: true
 
 permalinks:
   post: "/:title/"
@@ -35,32 +34,32 @@ languages:
       imageWidth: 150
       imageHeight: 150
       buttons:
-        - name: 🖥️技术
+        - name: ️技术
           url: posts/tech
-        - name: 📖阅读
+        - name: 阅读
           url: posts/read
-        - name: 🖊️随笔
+        - name: ️随笔
           url: posts/life
     menu:
       main:
         - identifier: search
-          name: 🔍搜索
+          name: 搜索
           url: search
           weight: 1
         - identifier: home
-          name: 🏠主页
+          name: 主页
           url: /
           weight: 2
         - identifier: tags
-          name: 🔖标签
+          name: 标签
           url: tags
           weight: 40
         - identifier: archives
-          name: ⏱️时间轴
+          name: ️归档
           url: archives/
           weight: 20
         - identifier: about
-          name: 🌟关于
+          name: 关于
           url: about
           weight: 50
 
@@ -71,14 +70,13 @@ outputs:
     - JSON
 
 params:
-  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  env: production
   author: 熊大如如
 
-  defaultTheme: light # defaultTheme: light or  dark
+  defaultTheme: light
   disableThemeToggle: false
   DateFormat: "2006-01-02"
   ShowReadingTime: true
-  # disableSpecialistPost: true
   displayFullLangName: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
@@ -100,19 +98,16 @@ params:
       url: "index.xml"
 
   assets:
-    favicon: "dog.png"
+    favicon: "dog.ico"
 
   fuseOpts: # 搜索配置
     isCaseSensitive: true
     shouldSort: true
     location: 0
-    distance: 1000
+    distance: 300
     threshold: 0.4
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary"]
-
-  twikoo:
-    version: 1.4.11
 
   utteranc:
     enable: enable # 是否启用 utteranc 评论
@@ -130,10 +125,7 @@ markup:
     renderer:
       unsafe: true # HUGO 默认转义 Markdown 文件中的 HTML 代码，如需开启的话
   highlight:
-    # anchorLineNos: true
     codeFences: true
     guessSyntax: true
     lineNos: false # 关闭代码行行号显示
-    # noClasses: false
-    # style: monokai
     style: darcula
