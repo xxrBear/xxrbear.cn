@@ -39,7 +39,7 @@ languages:
         - name: 阅读
           url: posts/read
         - name: ️随笔
-          url: posts/life
+          url: posts/essays
     menu:
       main:
         - identifier: search
