@@ -1,4 +1,4 @@
-name: Deploy My Blog to Tencent Cloud Lighthouse 🚀
+name: Deploy My Blog to Tencent Cloud Lighthouse
 
 on:
   push:
