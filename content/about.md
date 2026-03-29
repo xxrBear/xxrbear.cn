@@ -50,5 +50,4 @@ layout: "about"
   <img height="25" width="25" src="https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/css3.svg" style="display:inline-block;"/>
   <img height="25" width="25" src="https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/go.svg" style="display:inline-block;"/>
   <img height="25" width="25" src="https://cdn.jsdelivr.net/npm/simple-icons@v7/icons/rust.svg" style="display:inline-block;"/>
-  <img height="25" width="25" src="https://raw.githubusercontent.com/xxrBear/image/master/blog/icons8-java咖啡杯徽标-500.svg" style="display:inline-block;"/>
 </div>
