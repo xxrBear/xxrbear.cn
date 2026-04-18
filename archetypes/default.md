@@ -3,13 +3,8 @@ title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 lastmod: {{ .Date }}
 author: {{ .Site.Params.author }}
-keywords: 
-  - 
-categories: # 分类
-  - # 在这儿写分类
 tags: # 标签
   -
-description: ""
 weight:
 slug: ""
 summary: ""
